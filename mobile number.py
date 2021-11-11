@@ -8,7 +8,7 @@ print(timezone.time_zones_for_number(mobile_number))   #getting timezone of numb
 
 print(carrier.name_for_number(mobile_number, "en"))   #getting carrier of number
 
-print(geocoder.description_for_number(mobile_number, "en"))
+print(geocoder.description_for_number(mobile_number, "en"))     # getting region info
 
 print("valid Mobile number: ", phonenumbers.is_valid_number(mobile_number))
 
