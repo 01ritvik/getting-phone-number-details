@@ -4,7 +4,7 @@ from phonenumbers import carrier, geocoder, timezone
 mobile_number = input("Enter mobile number with country code: ")
 mobile_number = phonenumbers.parse(mobile_number)
 
-print(timezone.time_zones_for_number(mobile_number))   #getting timezone of number
+print(timezone.time_zones_for_number(mobile_number))  #getting timezone of number
 
 print(carrier.name_for_number(mobile_number, "en"))   #getting carrier of number
 
